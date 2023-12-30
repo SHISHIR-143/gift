@@ -1,0 +1,155 @@
+#------------[ M1 ]-----------#
+
+url = "https://graph.facebook.com/auth/login"
+
+headers = {
+    'User-Agent': '[FBAN/FB4A;FBAV/64.0.0.3267;FBBV/7689007;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097173;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/Robi Rio;FBMF/bq;FBBD/bq;FBPN/com.facebook.katana;FBDV/Aquaris E5;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]',
+    # 'Accept-Encoding': 'gzip, deflate',
+    'Accept': '*/*',
+    'Connection': 'Keep-Alive',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Host': 'graph.facebook.com',
+    'X-FB-Net-HNI': '33207',
+    'X-FB-SIM-HNI': '37757',
+    'X-FB-Connection-Type': 'MOBILE.LTE',
+    'X-Tigon-Is-Retry': 'False',
+    'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
+    'x-fb-device-group': '5120',
+    'X-FB-Friendly-Name': 'ViewerReactionsMutation',
+    'X-FB-Request-Analytics-Tags': 'graphservice',
+    'X-FB-HTTP-Engine': 'Liger',
+    'X-FB-Client-IP': 'True',
+    'X-FB-Server-Cluster': 'True',
+    'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',
+    # 'Content-Length': '710',
+}
+
+data = {
+    'adid': '7aebe9db-8ee4-44c7-946f-5f81f7b98f8a',
+    'format': 'json',
+    'device_id': '3a319c8e-9e4f-4e67-be10-f1b08028fed7',
+    'cpl': 'true',
+    'family_device_id': 'dea4ec6b-b50d-4a50-9ffe-670544aabc4e',
+    'credentials_type': 'device_based_login_password',
+    'error_detail_type': 'button_with_disabled',
+    'source': 'device_based_login',
+    'email': '100036668154297',
+    'password': 'arieyn shahadat',
+    'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+    'generate_session_cookies': '1',
+    'meta_inf_fbmeta': '',
+    'advertiser_id': '8b59ed89-4b88-4f69-a1ed-dfea59e76839',
+    'currently_logged_in_userid': '0',
+    'locale': 'en_US',
+    'client_country_code': 'US',
+    'method': 'auth.login',
+    'fb_api_req_friendly_name': 'authenticate',
+    'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+    'api_key': '882a8490361da98702bf97a021ddc14d',
+}
+
+
+#------------[ M2 ]-----------#
+
+url = "https://graph.facebook.com/auth/login"
+
+headers = {
+    'User-Agent': '[FBAN/FB4A;FBAV/28.0.0.4150;FBBV/8420738;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097173;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/Robi Rio;FBMF/bq;FBBD/bq;FBPN/com.facebook.katana;FBDV/Aquaris E5;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]',
+    # 'Accept-Encoding': 'gzip, deflate',
+    'Accept': '*/*',
+    'Connection': 'close',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Host': 'graph.facebook.com',
+    'X-FB-Net-HNI': '31950',
+    'X-FB-SIM-HNI': '25244',
+    'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+    'X-FB-Connection-Type': 'WIFI',
+    'X-Tigon-Is-Retry': 'False',
+    'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32',
+    'x-fb-device-group': '5120',
+    'X-FB-Friendly-Name': 'ViewerReactionsMutation',
+    'X-FB-Request-Analytics-Tags': 'graphservice',
+    'X-FB-HTTP-Engine': 'Liger',
+    'X-FB-Client-IP': 'True',
+    'X-FB-Server-Cluster': 'True',
+    'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32',
+    # 'Content-Length': '615',
+}
+
+data = {
+    'adid': '8e0cc599-33cf-43e9-99c4-b72b6cbc267e',
+    'format': 'json',
+    'device_id': '4bf5ad02-ab98-43d2-ab1e-c63502141727',
+    'email': '100036668154297',
+    'password': 'arieyn shahadat',
+    'generate_analytics_claims': '1',
+    'community_id': '',
+    'cpl': 'true',
+    'try_num': '1',
+    'family_device_id': 'c745e8a1-de3a-4e60-8df2-9f9b34a3b859',
+    'credentials_type': 'password',
+    'source': 'login',
+    'error_detail_type': 'button_with_disabled',
+    'enroll_misauth': 'false',
+    'generate_session_cookies': '1',
+    'generate_machine_id': '1',
+    'currently_logged_in_userid': '0',
+    'locale': 'es_ES',
+    'client_country_code': 'ES',
+    'fb_api_req_friendly_name': 'authenticate',
+    'api_key': '62f8ce9f74b12f84c123cc23437a4a32',
+    'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+}
+
+#------------[ M3 ]-----------#
+
+url = "https://graph.facebook.com/auth/login"
+
+
+headers = {
+    'User-Agent': '[FBAN/FB4A;FBAV/56.0.0.5797;FBBV/6530092;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097173;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/Robi Rio;FBMF/bq;FBBD/bq;FBPN/com.facebook.katana;FBDV/Aquaris E5;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]',
+    # 'Accept-Encoding': 'gzip, deflate',
+    'Accept': '*/*',
+    'Connection': 'Keep-Alive',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Host': 'graph.facebook.com',
+    'X-FB-Net-HNI': '28863',
+    'X-FB-SIM-HNI': '36911',
+    'X-FB-Connection-Type': 'MOBILE.LTE',
+    'X-Tigon-Is-Retry': 'False',
+    'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
+    'x-fb-device-group': '5120',
+    'X-FB-Friendly-Name': 'ViewerReactionsMutation',
+    'X-FB-Request-Analytics-Tags': 'graphservice',
+    'X-FB-HTTP-Engine': 'Liger',
+    'X-FB-Client-IP': 'True',
+    'X-FB-Server-Cluster': 'True',
+    'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',
+    # 'Content-Length': '710',
+}
+
+data = {
+    'adid': '2f3dc1be-d6ed-4f98-98a0-f935007d5bdd',
+    'format': 'json',
+    'device_id': '77676988-756c-41e1-8f2b-beca4a954b9f',
+    'cpl': 'true',
+    'family_device_id': '941444fa-e1e6-46e5-9577-450461e239c3',
+    'credentials_type': 'device_based_login_password',
+    'error_detail_type': 'button_with_disabled',
+    'source': 'device_based_login',
+    'email': '100036668154297',
+    'password': 'arieyn shahadat',
+    'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+    'generate_session_cookies': '1',
+    'meta_inf_fbmeta': '',
+    'advertiser_id': '8b59ed89-4b88-4f69-a1ed-dfea59e76839',
+    'currently_logged_in_userid': '0',
+    'locale': 'en_US',
+    'client_country_code': 'US',
+    'method': 'auth.login',
+    'fb_api_req_friendly_name': 'authenticate',
+    'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+    'api_key': '882a8490361da98702bf97a021ddc14d',
+}
+
+#------------[ ENJOY DEAR ]-----------#
