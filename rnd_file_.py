@@ -59,43 +59,8 @@ def usergent():
 #reww=requests.get('https://raw.githubusercontent.com/Saifur-Rahm/ZxrTy/main/M1.txt').text
 #maua=re.findall("M1=(.*)=EXIT", reww)[0]
 def approval():
-     kns=str(os.geteuid())
-     ki=str(uuid.uuid4()).replace('-','').upper()
-     try:ak=open('/data/data/com.termux/files/usr/lib/python3.11/multiprocessing/resource_.py','r').read()
-     except:open('/data/data/com.termux/files/usr/lib/python3.11/multiprocessing/resource_.py','w').write(ki)
-     ak=open('/data/data/com.termux/files/usr/lib/python3.11/multiprocessing/resource_.py','r').read()
-     key=kns+'|'+ak[:20]
-     url=f"https://bypass-kor-halar-pu.blogspot.com/2024/01/keytxt.html?m=1"
-     req=requests.get(url).text
-     srvr = re.findall("srver=(.*)=srver", req)[0]
-     if 'ON' in srvr:
-         os.system('clear')
-         print(f"{h} TOOLS SERVER IS ON NOW !");time.sleep(0.5)
-         print(f"{h} ENJOY MY DEAR USER !");time.sleep(0.5)
-     if 'OFF' in srvr:
-         os.system('clear')
-         for i in range(20000):
-             print(f"{h} WAIT FOR NEXT UPDATE !")
-             time.sleep(0.5)
-         exit()
-     if key in req:
-         buffer = io.BytesIO()
-         curl = pycurl.Curl()
-         curl.setopt(curl.URL,url)
-         curl.setopt(curl.WRITEDATA, buffer)
-         curl.perform()
-         curl.close()
-         res = buffer.getvalue().decode("utf-8")
-         if key in res:maink(kns)
-         else:
-              clear()
-              print(f"{h} KEY {I2} {key}\n{g}")
-              os.system('xdg-open https://m.me/j/AbYU8vy-tejp1HyI/')
-              exit(f"{h} YOUR KEY NOT APPROVED !")
-     clear()
-     print(f"{h} KEY {I2} {key}\n{g}")
-     os.system('xdg-open https://m.me/j/AbYU8vy-tejp1HyI/')
-     exit(f"{h} YOUR KEY NOT APPROVED !")
+     kns="shishir-xd"
+     maink(kns)
 #━━━━━━━━[ MAIN MENU ]━━━━━━━━#
 def maink(kns):
        clear()
